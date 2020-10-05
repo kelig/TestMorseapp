@@ -1,0 +1,24 @@
+<resources>
+
+    <string name="app_name">MorseHorde</string>
+    <string name="action_Morse">Morse</string>
+    <string name="action_Translate">Translate</string>
+    <string name="action_Words">Words</string>
+    <string name="beep">Beep</string>
+    <string name="beep2">SOS</string>
+    <string name="notify_me">Notify me</string>
+    <string name="camera">Camera</string>
+    <string name="snap_some_morse">Snap some morse</string>
+    <string name="Settings">Settings</string>
+
+    <string name="Getwords">http://192.168.0.219:3000/words</string>
+    <string name="add_a_word">Add a word</string>
+    <string name="add">Add</string>
+    <string name="libtitle">Add 10 letters to the public library</string>
+    <string name="ButtonPersistent">Add another button</string>
+    <string name="ButtonPersistent_sum">Add the button</string>
+    <string name="pref_ButtonPersistent">pref_ButtonPersistent</string>
+    <string name="remember">Remember morse</string>
+    <string name="remember_some_morse_yourself">Remember some morse yourself</string>
+
+</resources>

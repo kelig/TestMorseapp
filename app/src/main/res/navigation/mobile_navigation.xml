@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_morse">
+
+    <fragment
+        android:id="@+id/navigation_morse"
+        android:name="com.example.morsehorde.ui.morse.MorseFragment"
+        android:label="@string/action_Morse"
+        tools:layout="@layout/activity_main" />
+
+    <fragment
+        android:id="@+id/navigation_translate"
+        android:name="com.example.morsehorde.ui.translate.TranslateFragment"
+        android:label="@string/action_Translate"
+        tools:layout="@layout/fragment_translate" />
+
+    <fragment
+    android:id="@+id/navigation_words"
+    android:name="com.example.morsehorde.ui.words.WordsFragment"
+    android:label="@string/action_Words"
+    tools:layout="@layout/fragment_words" />
+
+    <fragment
+        android:id="@+id/navigation_MorseNotes"
+        android:name="com.example.morsehorde.ui.morsenotes.MorseNotes"
+        android:label="Remember"
+        tools:layout="@layout/fragment_morse_notes" />
+
+
+</navigation>
